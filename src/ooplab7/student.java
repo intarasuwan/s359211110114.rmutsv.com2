@@ -19,14 +19,14 @@ public class student {
     //constructor
     //default constructor
 
-    public Student(){}
+    public student(){}
     //create by own
-    public Student (String id, String n, String pid , System a){
+    public student(String id, String n, String pid , String a){
         //assign data to class properties
-        this.id= id;
-        this.name=n;
-        this.pid=pid;
-        this.address=a;
+        this.id = id;
+        this.name =n;
+        this.pid =pid;
+        this.address = a;
     }
     //getter and setter methods
 

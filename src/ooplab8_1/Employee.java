@@ -1,0 +1,54 @@
+package ooplab8_1;
+public class Employee extends Person{
+    private  String position;
+    private  String salary;
+    private  String company;
+
+    public Employee(String personID,
+                    String name,
+                    String address,
+                    String gender,
+                    String position,
+                    String salary,
+                    String company) {
+        super(personID, name, address, gender);
+        this.position = position;
+        this.salary=salary;
+        this.company=company;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "position='" + position + '\'' +
+                ", salary='" + salary + '\'' +
+                ", company='" + company + '\'' +
+                "} " + super.toString();
+    }
+
+
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public String getSalary() {
+        return salary;
+    }
+
+    public void setSalary(String salary) {
+        this.salary = salary;
+    }
+
+    public String getCompany() {
+        return company;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
+    }
+}

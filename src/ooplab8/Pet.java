@@ -1,4 +1,4 @@
-package ooplab8_1;
+package ooplab8;
 
 public abstract class Pet {
     private String name;

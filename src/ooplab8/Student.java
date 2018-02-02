@@ -1,4 +1,4 @@
-package ooplab8_1;
+package ooplab8;
 
 public class Student extends Person {
     private String studentID;

@@ -1,4 +1,4 @@
-package ooplab8_1;
+package ooplab8;
 // Dog is a Pet
 // Dog is sub-class
 // Dog is super-class

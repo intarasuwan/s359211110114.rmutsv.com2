@@ -1,4 +1,4 @@
-package ooplab8_1;
+package ooplab8;
 public class PetApp {
     public static void main(String[] args) {
         Dog dog = new Dog("kaya", 2);
@@ -6,7 +6,7 @@ public class PetApp {
         System.out.println(dog.getAge());
         dog.makeNoise();
         {
-            cat  cat = new Cat("Cho", 5);
+            cat  cat = new cat("Cho", 5);
             System.out.println(cat.getName());
             System.out.println(cat.getAge());
             cat.makeNoise();

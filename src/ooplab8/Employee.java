@@ -1,4 +1,4 @@
-package ooplab8_1;
+package ooplab8;
 public class Employee extends Person{
     private  String position;
     private  String salary;
